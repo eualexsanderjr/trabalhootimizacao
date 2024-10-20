@@ -19,5 +19,15 @@ Mostra a relação risco-retorno do portfólio ótimo.
 Mostra a evolução do retorno acumulado para cada ativo ao longo do período.
 
 ## Como Usar
-O código é executado a partir da função `main()`. Ele baixa os dados dos ativos, calcula os retornos e o risco, otimiza a carteira e plota os gráficos. Para rodar, basta executar o script em um ambiente Python e garantir que todas as bibliotecas necessárias estão instaladas.
+O código é executado a partir da função `main()`. Ele baixa os dados dos ativos, calcula os retornos e o risco, otimiza a carteira e plota os gráficos.  Para rodar o script, basta executar o arquivo teste.py diretamente no terminal:
+
+python teste.py
+
+Ao rodar o script, você verá:
+
+Os pesos ótimos calculados para cada ativo.
+Três gráficos:
+A alocação de ativos na carteira.
+A fronteira eficiente (relação entre retorno e risco).
+A evolução dos retornos acumulados ao longo do tempo.
 
